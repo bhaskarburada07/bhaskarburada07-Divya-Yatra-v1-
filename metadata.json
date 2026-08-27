@@ -1,0 +1,6 @@
+{
+  "name": "DivyaYatra",
+  "description": "DivyaYatra - Premium Indian Pilgrimage Super-App for Temple Darshan, Travel, Hotel Booking, and AI Pilgrimage Planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

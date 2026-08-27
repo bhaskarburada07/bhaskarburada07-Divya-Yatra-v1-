@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-orange: #f97316;
+    --primary-amber: #eab308;
+    --divya-gold: #f59e0b;
+    --bg-light: #faf8f5;
+    --card-light: #ffffff;
+  }
+
+  .dark {
+    --bg-light: #0c0a09;
+    --card-light: #1c1917;
+  }
+}
+
+/* Custom scrollbar behavior */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Animation utilities */
+@keyframes pulse-gentle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-gentle {
+  animation: pulse-gentle 3s ease-in-out infinite;
+}
+
+/* Diya glow effect */
+.diya-glow {
+  box-shadow: 0 0 25px -5px rgba(249, 115, 22, 0.4);
+}
+
+.dark .diya-glow {
+  box-shadow: 0 0 30px -3px rgba(249, 115, 22, 0.3);
+}
